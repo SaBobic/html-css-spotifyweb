@@ -82,8 +82,13 @@ footer{
     margin-bottom: 0.5rem;
 }
 
-.lower-navbar > *{
+.lower-navbar > div{
     margin-top: 1.5rem;
+}
+
+.lower-navbar .install-app img{
+    width: 1.5rem;
+    margin: 0 auto;
 }
 
 .nav-pfp img{
