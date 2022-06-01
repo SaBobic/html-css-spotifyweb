@@ -29,4 +29,20 @@
         vertical-align: middle;
     }
 
+    .playlist-menu h3{
+        margin-bottom: 0.5rem;
+    }
+
+    .playlist-menu .fa-square-plus{
+        display: inline-block;
+        vertical-align: middle;
+
+        font-size: 3rem;
+
+        margin-right: 0.5rem;
+    }
+
+    .playlist-menu li{
+        margin-bottom: 1rem;
+    }
 }
