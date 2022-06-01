@@ -12,7 +12,40 @@
 
 body{
     font-family: 'Montserrat', sans-serif;
-    height: 100vh;
+    color: #A3A3A3;
+}
+
+/* Layout */
+
+nav{
+    width: 100px;
+    background-color: #000;
+}
+
+main{
+    overflow: scroll;
+    height: calc(100vh - 100px);
+    width: 100%;
+    background-color: #141922;
+}
+
+header{
+    position: sticky;
+    top: 0;
+
+    height: 6rem;
+
+    background-color: #000;
+    opacity: 0.5;
+}
+
+footer{
+    height: 6rem;
+    background-color: #282828;
 }
 
 /* Utilities */
+
+.flex{
+    display: flex;
+}
