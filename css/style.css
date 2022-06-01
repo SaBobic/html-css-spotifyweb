@@ -1,0 +1,18 @@
+/* Reset */
+
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+/* Custom Properties */
+
+/* Generics */
+
+body{
+    font-family: 'Montserrat', sans-serif;
+    height: 100vh;
+}
+
+/* Utilities */
