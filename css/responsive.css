@@ -1,15 +1,32 @@
-/* RESET */
+/*
+********* SMALL *********
+*/
 
-*{
-    margin: 0;
-    padding: 0;
-    box-sizing: border-box;
+@media screen and (min-width: 576px){
+
+
+    /* Navbar */
+
+    .sidebar{
+        width: 25rem;
+        padding-top: 1.5rem;
+        padding-left: 1.5rem;
+        padding-right: 1.5rem;
+        align-items: stretch;
+    }
+
+    #logo-small{
+        display: none;
+    }
+
+    #logo{
+        display: block;
+        width: 10rem;
+    }
+
+    .main-menu img, .main-menu span{
+        display: inline-block;
+        vertical-align: middle;
+    }
+
 }
-
-/* GENERICS */
-
-
-
-
-
-/* UTILITIES */

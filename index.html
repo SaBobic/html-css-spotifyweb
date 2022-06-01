@@ -18,16 +18,53 @@
 <body>
 
     <div class="flex">
-        <nav class="navbar flex flex-column space-between align-center">
+
+        <!-- Navbar -->
+        <div class="sidebar flex flex-column space-between align-center">
+
+            <!-- Upper Nav -->
             <div class="upper-navbar">
-                <img src="img/logo-small.svg" alt="">
-                <ul>
-                    <li><a href="#"><img src="img/home.svg" alt=""></a></li>
-                    <li><a href="#"><img src="img/search.svg" alt=""></a></li>
-                    <li><a href="#"><img src="img/libreria.svg" alt=""></a></li>
-                </ul>
+
+                <!-- Logo -->
+                <img id="logo-small" src="img/logo-small.svg" alt="">
+                <img id="logo" class="mb-2" src="img/logo.svg" alt="">
+
+                <!-- Main Menu -->
+                <nav class="main-menu mb-2">
+                    <ul>
+                        
+                        <!-- Main Menu Items -->
+                        <li>
+                            <a href="#">
+                                <img src="img/home.svg" alt="">
+                                <span>Home</span>
+                            </a>
+                        </li>
+                        
+                        <li>
+                            <a href="#">
+                                <img src="img/search.svg" alt="">
+                                <span>Cerca</span>
+                            </a>
+                        </li>
+                        
+                        <li>
+                            <a href="#">
+                                <img src="img/libreria.svg" alt="">
+                                <span>La tua libreria</span>
+                            </a>
+                        </li>
+                    </ul>
+                </nav>
+
+                <!-- Playlist Menu -->
+                <nav>
+                    <h3>PLAYLIST</h3>
+                </nav>
+
             </div>
 
+            <!-- Lower Nav -->
             <div class="lower-navbar">
                 <div class="install-app">
                     <img src="img/download.svg" alt="">
@@ -37,7 +74,7 @@
                 </div>
             </div>
 
-        </nav>
+        </div>
 
         <main>
             <header>
