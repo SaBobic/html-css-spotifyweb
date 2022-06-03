@@ -32,7 +32,7 @@ h2, h3{
 
 main{
     overflow-y: scroll;
-    height: calc(100vh - 100px);
+    height: calc(100vh - 6rem);
     width: 100%;
     background-color: #141922;
 }
@@ -50,6 +50,10 @@ header{
 footer{
     height: 6rem;
     background-color: #282828;
+    position: absolute;
+    bottom: 0;
+    left: 0;
+    width: 100%;
 }
 
 /* Utilities */
@@ -97,10 +101,6 @@ footer{
     display: none;
 }
 
-.main-menu span{
-    display: none;
-}
-
 #logo-small, .upper-navbar li{
     margin-bottom: 0.5rem;
 }
@@ -121,4 +121,12 @@ footer{
     height: 2rem;
     border-radius: 50%;
     object-fit: contain;
+}
+
+.sidebar span{
+    display: none;
+}
+
+.playlist-menu{
+    display: none;
 }
