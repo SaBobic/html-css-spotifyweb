@@ -6,4 +6,61 @@
 
 
     /* Navbar */
+
+    #logo-small{
+        display: none;
+    }
+
+    #logo{
+        display: block;
+        width: 10rem;
+    }
+
+    .sidebar{
+        width: 25rem;
+        align-items: stretch;
+        padding: 1.5rem 1.5rem 0.5rem;
+    }
+    
+    .sidebar span, .sidebar img{
+        display: inline-block;
+        vertical-align: middle;
+    }
+    
+    .playlist-menu{
+        display: block;
+    }
+
+    .sidebar a{
+        color: #A3A3A3;
+    }
+
+    .playlist-menu > a{
+        display: block;
+    }
+
+    .playlist-menu > a i{
+        vertical-align: middle;
+        font-size: 3rem;
+        margin-right: 0.5rem;
+    }
+
+    .playlist-menu > a span{
+        font-size: 1.1rem;
+    }
+
+    .lower-sidebar .install-app{
+        text-align: left;
+        border-bottom: 1px solid #A3A3A3;
+        padding-bottom: 0.625rem;
+        margin-bottom: 1rem;
+    }
+
+    .sidebar-pfp img{
+        margin-top: 0;
+    }
+
+    .lower-sidebar img{
+        margin-right: 0.5rem;
+    }
 }
