@@ -1,5 +1,5 @@
 <!DOCTYPE html>
-<html lang="en">
+<html lang="it">
 <head>
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
@@ -22,17 +22,15 @@
     <div class="content flex">
 
         <!-- Sidebar -->
-        <div class="sidebar flex flex-column space-between align-center">
+        <nav class="sidebar">
 
-            <!-- Upper Sidebar -->
-            <div class="upper-sidebar">
-
+            <div>
                 <!-- Logo -->
                 <img id="logo-small" class="mb-1" src="img/logo-small.svg" alt="">
                 <img id="logo" class="mb-2" src="img/logo.svg" alt="">
-
+    
                 <!-- Main Menu -->
-                <nav class="main-menu mb-2">
+                <div class="main-menu mb-2">
                     <ul>
                         <!-- Main Menu Items -->
                         <li>
@@ -56,47 +54,46 @@
                             </a>
                         </li>
                     </ul>
-                </nav>
-
-                <!-- Playlist Menu -->
-                <nav class="playlist-menu">
-                    <h3 class="mb-1">PLAYLIST</h3>
-
-                    <a class="mb-1" href="#">
-                        <i class="fa-solid fa-square-plus"></i>
-                        <span>Crea Playlist</span>
-                    </a>
-
-                    <ul>
-                        <!-- Playlist Menu Items -->
-                        <li class="mb-1">
-                            <a href="#">Nome Playlist</a>
-                        </li>
-                        <li class="mb-1">
-                            <a href="#">Nome Playlist</a>
-                        </li>
-                        <li class="mb-1">
-                            <a href="#">Nome Playlist</a>
-                        </li>
-                        <li class="mb-1">
-                            <a href="#">Nome Playlist</a>
-                        </li>
-                        <li class="mb-1">
-                            <a href="#">Nome Playlist</a>
-                        </li>
-                        <li class="mb-1">
-                            <a href="#">Nome Playlist</a>
-                        </li>
-                        <li class="mb-1">
-                            <a href="#">Nome Playlist</a>
-                        </li>
-                    </ul>
-                </nav>
-
+                </div>
             </div>
 
+            <!-- Playlist Menu -->
+            <div class="playlist-menu">
+                <h3 class="mb-1">PLAYLIST</h3>
+
+                <a class="mb-1" href="#">
+                    <i class="fa-solid fa-square-plus"></i>
+                    <span>Crea Playlist</span>
+                </a>
+            </div>
+
+            <ul class="list-item-playlist">
+                <!-- Playlist Menu Items -->
+                <li class="mb-1">
+                    <a href="#">Nome Playlist</a>
+                </li>
+                <li class="mb-1">
+                    <a href="#">Nome Playlist</a>
+                </li>
+                <li class="mb-1">
+                    <a href="#">Nome Playlist</a>
+                </li>
+                <li class="mb-1">
+                    <a href="#">Nome Playlist</a>
+                </li>
+                <li class="mb-1">
+                    <a href="#">Nome Playlist</a>
+                </li>
+                <li class="mb-1">
+                    <a href="#">Nome Playlist</a>
+                </li>
+                <li class="mb-1">
+                    <a href="#">Nome Playlist</a>
+                </li>
+            </ul>
+        
             <!-- Lower Nav -->
-            <div class="lower-sidebar">
+            <div>
                 <div class="install-app">
                     <a href="#">
                         <img src="img/download.svg" alt="">
@@ -110,8 +107,7 @@
                     </a>
                 </div>
             </div>
-
-        </div>
+        </nav>
 
         <main>
             <header>

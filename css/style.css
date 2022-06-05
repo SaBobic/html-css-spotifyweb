@@ -58,7 +58,12 @@ h2, h3{
 .sidebar{
     width: 3.5rem;
     background-color: #000;
+    height: calc(100vh - 6rem);
     padding: 0.25rem 0 0.75rem;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    align-items: center;
 }
 
 main{
@@ -94,15 +99,15 @@ footer{
     width: 1.75rem;
 }
 
-.upper-sidebar .main-menu li{
+.sidebar .main-menu li{
     margin-bottom: 0.5rem;
 }
 
-.lower-sidebar .install-app{
+.sidebar .install-app{
     text-align: center;
 }
 
-.lower-sidebar .install-app img{
+.sidebar .install-app img{
     width: 1rem;
 }
 
@@ -115,14 +120,6 @@ footer{
     margin-top: 1rem;
 }
 
-#logo{
-    display: none;
-}
-
-.sidebar span{
-    display: none;
-}
-
-.playlist-menu{
+#logo, .playlist-menu, .list-item-playlist, .sidebar span{
     display: none;
 }
