@@ -27,6 +27,13 @@ h2, h3{
     display: flex;
 }
 
+.btn{
+    padding: 0.5rem 2.5rem;
+    border: 2px solid #fff;
+    border-radius: 30px;
+    color: #fff;
+}
+
 /* Layout */
 
 .content{
@@ -100,7 +107,7 @@ main{
 
 /* Header */
 
-header{
+main header{
     height: 6rem;
     background-color: #080B12;
     opacity: 0.7;
@@ -108,4 +115,11 @@ header{
     position: sticky;
     top: 0;
     left: 0;
+}
+
+main header a{
+    display: inline-block;
+    position: absolute;
+    top: 1.5rem;
+    right: 0.5rem;
 }
