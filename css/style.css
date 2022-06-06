@@ -52,6 +52,10 @@ a{
     color: #fff;
 }
 
+.round{
+    border-radius: 50%;
+}
+
 /* Macro Layout */
 
 .content{
@@ -155,7 +159,7 @@ main header a{
 }
 
 .main-content nav li{
-    padding: 0 0.5rem;
+    padding: 0 0.625rem;
     line-height: 3rem;
 }
 
@@ -163,8 +167,17 @@ main header a{
     margin-bottom: 1.5rem;
 }
 
-.main-content h2{
+.main-content section{
     margin-bottom: 2rem;
+}
+
+.main-content .section-title{
+    margin-bottom: 1.75rem;
+}
+
+.main-content .section-title span{
+    display: block;
+    padding-top: 0.5rem;
 }
 
 .main-content .col{

@@ -81,3 +81,25 @@
         color: #fff;
     }
 }
+
+/*
+********* NORMAL *********
+*/
+
+@media screen and (min-width: 768px){
+
+    .main-content .col{
+        width: 25%;
+    }
+}
+
+/*
+********* BIG *********
+*/
+
+@media screen and (min-width: 992px){
+
+    .main-content .col{
+        width: calc(100% / 6);
+    }
+}
