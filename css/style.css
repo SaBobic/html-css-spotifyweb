@@ -41,6 +41,14 @@ a{
     width: 50%;
 }
 
+.w-20{
+    width: 15%;
+}
+
+.w-60{
+    width: 70%;
+}
+
 .w-33{
     width: calc(100% / 3);
 }
@@ -58,6 +66,38 @@ a{
 
 .round{
     border-radius: 50%;
+}
+
+.active{
+    position: relative;
+}
+
+.active::after{
+    content: '';
+    height: 2px;
+    width: 30px;
+    background-color: #ADFF2F;
+
+    position: absolute;
+    top: 80%;
+    left: 50%;
+    transform: translateX(-50%);
+}
+
+.active-vertical{
+    position: relative;
+}
+
+.active-vertical::after{
+    content: '';
+    height: 35px;
+    width: 4px;
+    background-color: #ADFF2F;
+
+    position: absolute;
+    left: -1.5rem;
+    top: 50%;
+    transform: translate(0, -50%);
 }
 
 /* Macro Layout */
@@ -204,13 +244,20 @@ main header a{
 /* Player */
 
 #player{
-    padding: 0 0.5rem;
     color: #fff;
 }
 
-#player, #player .player-song{
+#player .player-song, #player .player-settings{
+    padding: 0 1rem;
+}
+
+#player, #player .player-song, #player .player-controls-up, #player .player-controls-down, #player .player-settings{
     display: flex;
     align-items: center;
+}
+
+#player .player-controls-up, #player .player-controls-down{
+    justify-content: center;
 }
 
 #player div img{
@@ -223,13 +270,53 @@ main header a{
 }
 
 #player .player-song-info{
-    margin-right: 1.5rem;
+    margin-right: 1rem;
 }
 
-#player .player-controls-up, #player .player-controls-down{
-    text-align: center;
+#player .player-controls-up{
+    margin-bottom: 0.5rem;
+}
+
+#player .player-controls-up .fa-shuffle{
+    margin-right: 1rem;
+}
+
+#player .player-controls-up .fa-circle-play{
+    font-size: 1.5rem;
+    padding: 0 1.5rem;
+}
+
+#player .player-controls-up .fa-rotate-right{
+    margin-left: 1rem;
+}
+
+#player .player-controls-down{
+    justify-content: space-between;
+}
+
+#player .player-controls-down .progress-bar{
+    height: 3px;
+    width: 65%;
+    background-color: #5A5A5A;
+    border-radius: 30px;
+}
+
+#player .player-controls-down span{
+    font-size: 0.625rem;
 }
 
 #player .player-settings{
-    text-align: right;
+    justify-content: flex-end;
+}
+
+#player .player-settings .volume-bar{
+    height: 3px;
+    width: 50%;
+    max-width: 150px;
+    background-color: #5A5A5A;
+    border-radius: 30px;
+}
+
+#player .player-settings i{
+    margin-right: 0.5rem;
 }

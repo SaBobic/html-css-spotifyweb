@@ -91,6 +91,10 @@
     .main-content .col{
         width: 25%;
     }
+
+    #player .player-song-info{
+        margin-right: 2.5rem;
+    }
 }
 
 /*
@@ -101,5 +105,9 @@
 
     .main-content .col{
         width: calc(100% / 6);
+    }
+
+    #player .player-controls-down .progress-bar{
+        width: 80%;
     }
 }
