@@ -294,10 +294,17 @@ main header a{
     justify-content: space-between;
 }
 
-#player .player-controls-down .progress-bar{
+#player .progress-bar{
     height: 3px;
     width: 65%;
     background-color: #5A5A5A;
+    border-radius: 30px;
+}
+
+#player .progress-bar .progress-bar-slider{
+    height: 3px;
+    width: 30%;
+    background-color: #C1C1C1;
     border-radius: 30px;
 }
 
@@ -309,11 +316,18 @@ main header a{
     justify-content: flex-end;
 }
 
-#player .player-settings .volume-bar{
+#player .volume-bar{
     height: 3px;
     width: 50%;
     max-width: 150px;
     background-color: #5A5A5A;
+    border-radius: 30px;
+}
+
+#player .volume-bar .volume-bar-slider{
+    height: 3px;
+    width: 20%;
+    background-color: #C1C1C1;
     border-radius: 30px;
 }
 
